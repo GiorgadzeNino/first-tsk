@@ -1,0 +1,77 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+.main-second{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.main-second img{
+    width:100%;
+    height:100%;
+   
+}
+
+.firstWrapper{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    margin-top:100px;
+   margin-bottom: 100px;
+}
+.secondWrapper{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+  
+}
+.inputs input{
+    width: 423px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #fafbfb;
+
+}
+h1{
+    width: 285px;
+    height: 49px;
+    color: #0a1f44;
+    font-family: "Inter UI - Semi Bold";
+    font-weight: 600;
+    line-height: 48px;
+    justify-self: center;
+    align-self:center;
+}
+p{
+    display: inline-block;
+    width: 122px;
+    height: 21px;
+    color: #4e5d78;
+    font-family: "Inter UI - Medium";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.check{
+    display: inline-block;
+}
+
+.check a{
+    width: 119px;
+    height: 21px;
+    color: #553eb5;
+    font-family: "Inter UI - Medium";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+}
+button{
+    width: 423px;
+    height: 59px;
+    border-radius: 8px;
+    background-color: #0284fe;
+    justify-self: center;
+    align-self:center;
+    margin-top:0;
+}
