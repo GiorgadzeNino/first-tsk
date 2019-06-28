@@ -18,11 +18,13 @@ render(){
                             <input type="text" placeholder="Password"/>
                         </div>
                         <div className="check">
+                            <div>
+                                <div className="check1">
                                 <input type="checkbox" />
                                 <p>Keep me logged in</p>
-                        
-                            <a href="url">Forgot password?</a>
-                        
+                                </div>
+                                <a href="url">Forgot password?</a>
+                            </div>
                         <button>Sign in</button>
                         </div>
                         </div>
